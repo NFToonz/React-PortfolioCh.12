@@ -13,11 +13,7 @@ const AboutMe = () => {
       </p>
     </div>
   );
-<<<<<<< HEAD
-}
-=======
 }
 
 export default AboutMe;
 // export default AboutMe;
->>>>>>> a6dffc1 (new repo push)

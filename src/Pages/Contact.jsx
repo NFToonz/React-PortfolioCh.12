@@ -1,7 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-import Navigation from "./Navigation";
-=======
 
 function Contact() {
   return (
@@ -22,4 +19,3 @@ function Contact() {
 export default Contact;
 // // Compare this snippet from React-PortfolioCh.12/src/Components/Header.jsx:
 // import React from "react";
->>>>>>> a6dffc1 (new repo push)
