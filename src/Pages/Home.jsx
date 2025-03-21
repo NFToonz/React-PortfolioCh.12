@@ -10,4 +10,13 @@ function Home() {
 
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+
+export default Home;
+// export default Home;
+// // Compare this snippet from src/Components/Projects.jsx:
+// import React from "react";
+>>>>>>> a6dffc1 (new repo push)

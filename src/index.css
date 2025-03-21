@@ -1,3 +1,63 @@
+.navigation {
+  display: flex;
+  flex-direction: row; /* Ensures items are in a horizontal row */
+  justify-content: center; /* Centers the navigation items horizontally */
+  align-items: center; /* Aligns items vertically */
+  background-color: #242424; /* Dark background for the navigation bar */
+  padding: 1em; /* Adds padding around the navigation */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  width: 100%; /* Ensures it spans the full width */
+  white-space: nowrap; /* Prevents items from wrapping */
+}
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Removes default list styling */
+  gap: 1em; /* Adds spacing between navigation items */
+}
+
+.projects{
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  justify-content: center; /* Centers items vertically */
+  list-style: none; /* Removes default list styling */
+  gap: 2em; /* Adds spacing between project items */
+  padding: 2em; /* Adds padding around the projects section */
+}
+
+.projects ul {
+  display: flex;
+  flex-direction: row; /* Aligns project items in a row */
+  justify-content: center; /* Centers project items horizontally */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  list-style: none; /* Removes default list styling */
+  gap: 2em; /* Adds spacing between project items */
+}
+
+.projects li {
+  display: flex;
+  flex-direction: column; /* Stacks project details vertically */
+  align-items: center; /* Centers items horizontally */
+  text-align: center; /* Centers text within the project item */
+  background-color: #1a1a1a; /* Dark background for project items */
+  padding: 1.5em; /* Adds padding around each project item */
+  border-radius: 8px; /* Rounds the corners of the project items */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.projects img {
+  max-width: 100%; /* Ensures the image scales to fit the screen */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 8px; /* Adds rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  margin: 0 auto; /* Centers the image horizontally if it's a block element */
+  display: block; /* Ensures the image behaves like a block element */
+}
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,13 +73,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 a {
   font-weight: 500;
-  color: #646cff;
+  color: rgb(230, 231, 233);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #a63f3f;
 }
 
 body {

@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation";
+import "../index.css"; // Assuming you have a CSS file for global styles
 
 function Header() {
   return (
@@ -10,3 +11,6 @@ function Header() {
 
   );
 }
+
+export default Header;
+// Compare this snippet from src/Components/Navigation.jsx:
