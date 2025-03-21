@@ -6,6 +6,7 @@ import './App.css';
 import AboutMe from './Pages/AboutMe';
 import Portfolio from './Pages/Portfolio';
 import Contact from './Pages/Contact';
+import Footer from './Components/Footer';
 
 
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/Portfolio" element={<Portfolio />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )
